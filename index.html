@@ -1,0 +1,70 @@
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/user-profile.css" type="text/css">
+</head>
+<body>
+	<div class="userprofile-container">
+		<div class="blue-block">
+		</div>
+		<div class="userprofile__content">
+			<div class="userprofile__informations overflowfix">
+				<a class="btn--share" href="#"><i class="fa fa-share-square-o"></i></a>
+				<div class="informations-inner-position overflowfix">
+					<div class="userprofile__photo inline-float">
+						<img class="maxwidth-inherit js-profile-owner-avatar" src="" />
+					</div>
+					<div class="data-position-block valign-force inline-float">
+						<div>
+							<span class="user-personal-data data__fullname"><a class="heart btn--like" href="#"><i class="fa fa-heart-o"></i></a></span>
+							<span class="user-personal-data data__living-place"></span>
+						</div>
+					</div>
+				</div>
+				<div class="popularity-count">
+					<ul class="profileNav-list">
+						<li class="profileNav__item right-slim-border">
+							<span class="nav-item__value js-likes-value">0</span>
+							<span class="nav-item__label">Likes</span>
+						</li>
+						<li class="profileNav__item right-slim-border">
+							<span class="nav-item__value js-following-value">0</span>
+							<span class="nav-item__label">Following</span>
+						</li>
+						<li class="profileNav__item">
+							<span class="nav-item__value js-followers-value">0</span>
+							<span class="nav-item__label">Followers</span>
+						</li>
+						<li class="profileNav__item">
+							<a class="btn btn--follow" href="#">FOLLOW</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="userprofile__comments">
+				<a class="btn--hideComments hide-btn-position" href="#">Hide comments (<span class="js-comment-count">0</span>)</a>
+				<div class="comments-container js-load-comments"></div>
+				<div class="comments__comment-box">
+					<form enctype="application/json" action="/comment.php" method="POST" class="addComment comment-input-box">
+						<input type="text" name="content" placeholder="Add a comment">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="lightbox-overlay">
+			<div class="lightbox-container">
+				<span class="lightbox--close js-lightbox-close"><i class="fa fa-close"></i></span>
+				<div class="lightbox__link-label">
+					<span>Share this profile!</span>
+				</div>
+				<div class="lightbox__link-field">
+					<span class="lightbox__profile-url"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/userprofile-scripts.js"></script>
+</body>
+</html>

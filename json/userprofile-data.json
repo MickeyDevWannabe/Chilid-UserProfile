@@ -1,0 +1,45 @@
+{  
+   "ownerAvatarURL":"images\/harvey.jpg",
+   "fullName":"Harvey Specter",
+   "address":{  
+      "city":"New York",
+      "country":"USA"
+   },
+   "popularityData":{  
+      "likes":121,
+      "following":723,
+      "followers":4433
+   },
+   "profileComments":{  
+      "0":{  
+         "userAvatarURL":"images\/harvey.jpg",
+         "fullName":"Mike Ross",
+         "postDate":"09\/23\/2017",
+         "content":"Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula."
+      },
+      "1":{  
+         "userAvatarURL":"images\/harvey.jpg",
+         "fullName":"Rachel Zein",
+         "postDate":"09\/23\/2017",
+         "content":"Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula."
+      },
+      "2":{  
+         "userAvatarURL":"images\/harvey.jpg",
+         "fullName":"Louis Litt",
+         "postDate":"09\/23\/2017",
+         "content":"Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula."
+      },
+      "3":{  
+         "userAvatarURL":"images\/harvey.jpg",
+         "fullName":"James Bond",
+         "postDate":"09\/23\/2017",
+         "content":"Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula."
+      },
+      "4":{  
+         "userAvatarURL":"images\/harvey.jpg",
+         "fullName":"John Random",
+         "postDate":"09\/23\/2017",
+         "content":"Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula."
+      }
+   }
+}
